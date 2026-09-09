@@ -1,0 +1,54 @@
+# Build & Artifacts
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+out/
+bin/
+
+# IDE & AI Assistant Tracking
+.antigravity/
+.cursor/
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+
+# Eclipse & NetBeans
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbproject/load${HEX_VALUE}
+/build/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# OS & Environment Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.env
+.env.local
+.env.*.local
